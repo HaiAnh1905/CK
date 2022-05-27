@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Regis.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div id="container">
+      <nav id="navbar">
+        <ul id="navbar-nav">
+          <li id="logo">
+            <a href="" class="nav-link">
+              <img src="./img/fast-forward.png" alt="" />
+              <span class="link-text">Fireship</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./Home.html" class="nav-link">
+              <img src="./img/home.png" alt="" />
+              <span class="link-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./Login.html" class="nav-link">
+              <img src="./img/letter-l (1).png" alt="" />
+              <span class="link-text">Login</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./Regis.html" class="nav-link">
+              <img src="./img/original.png" alt="" />
+
+              <span class="link-text">Register</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./Shop.html" class="nav-link">
+              <img src="./img/online-shop.png" alt="" />
+              <span class="link-text">Store</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./HS.html" class="nav-link">
+              <img src="./img/house.png" alt="" />
+
+              <span class="link-text">Homestay for Cat</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./Adopt.html" class="nav-link">
+              <img src="./img/homestay.png" alt="" />
+
+              <span class="link-text">Adopt me!</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <img src="./img/phone-call.png" alt="" />
+              <span class="link-text">Contact us</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="Regis-interface">
+        <h1>Đăng ký</h1>
+
+        <form method="post">
+          <div class="post-regis">
+            <input type="email" id="emailRegis" required />
+            <span></span>
+            <label for="">Gmail</label>
+          </div>
+          <div class="post-regis">
+            <input type="text" id="NickSU" required />
+            <span></span>
+            <label for="">Tên đăng nhập</label>
+          </div>
+          <div class="post-regis">
+            <input type="password" id="passRegis" required />
+            <span></span>
+            <label for="">Mật khẩu</label>
+          </div>
+        </form>
+        <button id="regisBtn"><span>Đăng ký</span></button>
+        <div id="exist">
+          Đã có tài khoản! <a href="./Login.html">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+    <script src="./Regis.js"></script>
+  </body>
+</html>
